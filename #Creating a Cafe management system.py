@@ -33,7 +33,7 @@ if Answer == "Yes":
     item_2 = input("Enter the name of item you want to order =")
     if item_2 in menu:
         Total_Price+= menu[item_2]
-        print(f"Your item {item_1} has been added to your order") 
+        print(f"Your item {item_2} has been added to your order") 
     
     else:
         print(f"Ordered item {item_1} is not available yet!")
