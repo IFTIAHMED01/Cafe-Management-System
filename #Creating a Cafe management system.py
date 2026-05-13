@@ -36,12 +36,15 @@ if Answer == "Yes":
         print(f"Your item {item_2} has been added to your order") 
     
     else:
-        print(f"Ordered item {item_1} is not available yet!")
+        print(f"Ordered item {item_2} is not available yet!")
+
+  else: break
+ 
   answer = input("Do you want to order anything else! (Yes/No)")
   if answer == "No":
     break
+ print(f"The amount of items to pay is BDT {Total_Price}")
 
-print(f"The amount of items to pay is BDT {Total_Price}")
 
 print("Thank you for coming to the Restaurant")
 
