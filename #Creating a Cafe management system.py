@@ -10,9 +10,12 @@ menu = {
 
 #Printing the menu
 print("Welcome to Barcode Restaurant")
+
 print("Chicken Breast: BDT 40\nChicken Wings: BDT 20\nBeef/Chicken Burger: BDT 60\nBrownie: BDT 15\nCoffee: BDT 10" )
 
 Total_Price = 0
+
+Answer = input("Are you ready for  order? (Yes/No)")
 
 item_1 = input("Enter the name of item you want to order = ")
 if item_1 in menu:
