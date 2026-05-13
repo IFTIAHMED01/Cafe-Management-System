@@ -26,19 +26,6 @@ if Answer == "Yes":
 
   else:
     print(f"Ordered item {item_1} is not available yet!")
-
-
-  anotheritem = input("Do you want to add another item? (Yes/No)")
-  if anotheritem == "Yes":
-    item_2 = input("Enter the name of item you want to order =")
-    if item_2 in menu:
-        Total_Price+= menu[item_2]
-        print(f"Your item {item_2} has been added to your order") 
-    
-    else:
-        print(f"Ordered item {item_2} is not available yet!")
-
-  else: break
  
   answer = input("Do you want to order anything else! (Yes/No)")
   if answer == "No":
